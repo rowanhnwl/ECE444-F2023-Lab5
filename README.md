@@ -5,3 +5,6 @@
 
 ## Step 2: ##
 ![Alt text](media/Step2.png)
+
+## Step 3: ##
+![Alt text](media/Step3.png)
