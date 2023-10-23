@@ -5,7 +5,7 @@ from flask import Flask, g, render_template, request, session, flash, redirect, 
 DATABASE = "flaskr.db"
 USERNAME = "admin"
 PASSWORD = "admin"
-SECRET_KEY = "ROWANS_KEY"
+SECRET_KEY = "change_me"
 
 # create and initialize a new Flask app
 app = Flask(__name__)
@@ -63,6 +63,14 @@ def logout():
     flash('You were logged out')
     return redirect(url_for('index'))
 
+@app.route('/')
+def index():
+    """Searches the database for entries, then displays them."""
+    db = get_db()
+    cur = db.execute('select * from entries order by id desc')
+    entries = cur.fetchall()
+    return render_template('index.html', entries=entries)
+
 @app.route('/add', methods=['POST'])
 def add_entry():
     """Add new post to database."""
@@ -76,14 +84,6 @@ def add_entry():
     db.commit()
     flash('New entry was successfully posted')
     return redirect(url_for('index'))
-
-@app.route('/')
-def index():
-    """Searches the database for entries, then displays them."""
-    db = get_db()
-    cur = db.execute('select * from entries order by id desc')
-    entries = cur.fetchall()
-    return render_template('index.html', entries=entries)
 
 if __name__ == "__main__":
     app.run()
