@@ -34,3 +34,6 @@
 
 ### Test: ###
 ![Alt text](media/Step5Test.png)
+
+## Step 6: ##
+![Alt text](media/Step6.png)
