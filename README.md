@@ -24,3 +24,13 @@
 
 ### Logout: ###
 ![Alt text](media/Step4Logout.png)
+
+## Step 5: ##
+### New Entries: ###
+![Alt text](media/Step5Entries.png)
+
+### Deletion: ###
+![Alt text](media/Step5Delete.png)
+
+### Test: ###
+![Alt text](media/Step5Test.png)
