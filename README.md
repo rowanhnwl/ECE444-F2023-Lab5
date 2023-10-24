@@ -37,3 +37,10 @@
 
 ## Step 6: ##
 ![Alt text](media/Step6.png)
+
+## Step 7: ##
+### Test (SQLAlchemy): ###
+![Alt text](media/Step7Test.png)
+
+### New entry: ###
+![Alt text](media/Step7Entry.png)
