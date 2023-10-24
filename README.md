@@ -44,3 +44,6 @@
 
 ### New entry: ###
 ![Alt text](media/Step7Entry.png)
+
+## Step 8: ##
+![Alt text](media/Step8.png)
