@@ -50,3 +50,10 @@
 
 ## Step 9: ##
 ![Alt text](media/Step9.png)
+
+## Step 10: ##
+### Flake8: ###
+![Alt text](media/Step10Flake8.png)
+
+### Black: ###
+![Alt text](media/Step10Black.png)
