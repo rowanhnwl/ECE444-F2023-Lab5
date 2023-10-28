@@ -2,7 +2,7 @@
 
 ## Test case file in the team project: ##
 
-`https://github.com/ECE444-2023Fall/project-1-web-application-design-group1-flask-and-furious/blob/main/__tests__/sliders.test.tsx`
+`ECE444-2023Fall/project-1-web-application-design-group1-flask-and-furious/blob/main/__tests__/sliders.test.tsx`
 
 ## Pros and Cons of TDD: ##
 
